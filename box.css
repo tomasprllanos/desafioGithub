@@ -1,0 +1,86 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: rgba(117, 171, 226, 0.931);
+    background-image: url(https://fotos-themonkeybusiness.s3.eu-west-3.amazonaws.com/wp-content/uploads/2021/02/20021741/imagen-de-fondo-para-pagina-web-1170x524.png)
+}
+.tituloPrincipal {
+background-color: rgba(99, 172, 241, 0.109);
+color: rgb(255, 255, 255);
+font-size: 50px;;
+font-family: 'Ranga', cursive;
+text-align: center;
+}
+.redireccion :hover{
+
+    color: black;
+}
+.itemMenu{
+    display: inline-block;
+    width: 300px;
+    padding: 60px;
+}
+ul {
+    list-style: none;
+    font-size:0 
+ }
+ li {
+    display: inline-block;
+    width: 25%;
+    position:relative;
+    font-size: 14px
+ }
+ ul ul {
+    position: absolute;
+    display: none;
+ }
+ ul ul li {
+    display: block;
+ }
+ ul li:hover ul {
+    display:block;
+ }
+ .gridFacilBody header {
+     background-color: rgba(0, 255, 255, 0.109);
+     height: 10vh;
+ }
+
+.Container {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 2fr 1fr ;
+    height: 80vh;
+    grid-gap: 10px;
+} 
+.hijoGrid {
+    border: 5px solid black;    
+    background-color: rgba(0, 0, 255, 0.239);
+    font-family: 'Ranga', cursive;
+    text-align: center;
+    font-size: 60px;
+} 
+p {
+    font-family: 'Ranga', cursive;
+    color: rgba(253, 253, 253, 0.911);
+}
+.redes {
+    font-family: 'Ranga', cursive;
+    
+}
+ @media (min-width: 517px) and (max-width:980px){
+     /*Dispositivo LARGE*/
+}
+
+ @media (min-width: 351px) and (max-width:516px){
+     /*Dispositivo SMALL*/
+}
+
+ @media (min-width: 0px) and (max-width:350px) {
+    /*Dispositivo XS*/
+}

@@ -1,0 +1,98 @@
+*{
+    margin: 0%; 
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: rgba(117, 171, 226, 0.329);
+    background-image: url(https://fotos-themonkeybusiness.s3.eu-west-3.amazonaws.com/wp-content/uploads/2021/02/20021741/imagen-de-fondo-para-pagina-web-1170x524.png)
+}
+.tituloPrincipal {
+background-color: rgba(99, 172, 241, 0.322);
+color: rgb(255, 255, 255);
+font-size: 50px;;
+font-family: 'Ranga', cursive;
+text-align: center;
+}
+.redireccion :hover{
+
+    color: black;
+}
+a {
+    color: rgba(255, 255, 255, 0.822);
+}
+a :hover {
+    color: rgb(3, 3, 3);
+}
+a :active {
+    color: rgb(206, 46, 192);
+}
+
+p {
+    background-color: rgba(233, 142, 162, 0.931);
+    font-family: 'Ranga', cursive;
+}
+.primerSubtitulo{
+    font-family: 'Ranga', cursive;   
+}
+.itemMenu{
+    display: inline-block;
+    width: 300px;
+    padding: 60px;
+}
+.subMenu{
+ display: none;
+ position: absolute;
+
+}
+.itemSubmenu:hover > .subMenu{
+    display: block;
+   
+}
+.itemMenu:hover{
+    background-color: rgba(0, 0, 255, 0.109);
+}
+.redes {
+    font-family: 'Ranga', cursive;
+}
+header {
+    background-color: rgba(38, 168, 228, 0.39);
+}
+.flex-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer {
+    padding: 20px ;
+    text-align: center;
+    background-color: rgba(90, 80, 235, 0.301);
+}
+img { 
+    width: 100%;
+}
+.row {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.column {
+    flex: 25%;
+    padding: 5px;
+
+}
+.column img {
+    margin-top: 5px;
+}
+.vid1 {
+    flex: 1;
+}
+@media screen and (max-width: 800px){
+    .body {
+        background-color: cornflowerblue;
+    }
+    .column{
+        flex: 100%;
+    }
+}
